@@ -1,0 +1,46 @@
+<html>
+<head>
+
+	<title>Tutorial 2</title>
+	</head>
+	<form>
+	<body>
+	
+	
+	<p><strong>What kind of car would you like to buy ?
+	<p> &nbsp; &nbsp; &nbsp;<input type ="radio"name="car"value="proton"checked>proton
+	<input type ="radio"name="car"value="honda"checked>honda
+	<input type ="radio"name="car"value="ferrari"checked>ferrari
+	<input type ="radio"name="car"value="ford"checked>ford
+	<p><strong>What colour do you want on your car ?<br>
+	
+	<p> &nbsp; &nbsp; &nbsp; &nbsp;<select name="car"><br>
+		<option value = "Black">Black</option>
+		<option value = "White">White</option>
+		<option value = "Red">Red</option>
+		<option value = "Blue">Blue</option></select>&nbsp;Other:<input type = "text" name="Name" >
+	<p><strong>Enter an information of your preffered car:
+		<p> &nbsp; &nbsp; &nbsp; &nbsp;<textarea name = "comment" rows = "5" cols = "50" ></textarea>
+	<p>Tell us how to get in touch with you:<br>
+<p> &nbsp; &nbsp;Name: &nbsp;&nbsp;&nbsp;
+<input type = "text" name="Name" value = "" size = "40">
+<br>
+<p>
+ &nbsp; &nbsp;Email:  &nbsp;&nbsp;&nbsp;
+<input type = "text" name="Email" value ="" size ="40">
+<br>
+<p> &nbsp; &nbsp;Tel: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type = "text" name="Tel" value = "" size = "40">
+<br>
+<p> &nbsp; &nbsp;Fax: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type = "text" name="Fax" value = "" size = "40">
+<br>
+<p> &nbsp; &nbsp;<input type="checkbox"name="opt"value="yes">Please contact me as soon as possible regarding this matter.
+<br><p><input type="submit" value="Send">
+  <input type="reset" value="Clear">
+
+
+</form>
+</body>
+</html>	
+</html>	
